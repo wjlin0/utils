@@ -1,0 +1,15 @@
+version: 2
+updates:
+
+  # Maintain dependencies for go modules
+  - package-ecosystem: "gomod"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: "main"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    allow:
+      - dependency-name: "github.com/wjlin0/*"
+      - dependency-name: "github.com/projectdiscovery/*"
