@@ -1,4 +1,9 @@
+//go:build proxy
+
 package proxyutils
+
+// package tests will be executed only with (running proxy is necessary):
+// go test -tags proxy
 
 import (
 	"crypto/tls"
