@@ -91,7 +91,7 @@ func (c *Client) poll() error {
 	}
 	return err
 }
-func (c *Client) ResultEventCallback(id string, data *RequestData) {
+func (c *Client) ResultEventCallback(id string, data *RequestData, timeout time.Duration) {
 
 	interactions, err := c.interactions.Get(id)
 	if interactions != nil && err == nil {
@@ -102,7 +102,7 @@ func (c *Client) ResultEventCallback(id string, data *RequestData) {
 			}
 		}
 	} else {
-		data.context, data.cancel = context.WithTimeout(context.Background(), c.pollDuration)
+		data.context, data.cancel = context.WithTimeout(context.Background(), timeout)
 		_ = c.requestDatas.SetWithExpire(id, data, c.eviction)
 	}
 

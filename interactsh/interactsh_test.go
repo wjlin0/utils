@@ -39,7 +39,7 @@ func TestClient_Result(t *testing.T) {
 
 					req := NewDefaultHTTPMatcherRequestData()
 					req.ExtractFunc = extractFunc
-					client.ResultEventCallback(strings.Split(url, ".")[0], req)
+					client.ResultEventCallback(strings.Split(url, ".")[0], req, DefaultTimeout)
 					return req.Result()
 
 				}()
@@ -82,7 +82,7 @@ func TestClient_Result(t *testing.T) {
 						ExtractFunc: extractFunc,
 					}
 					req.ExtractFunc = extractFunc
-					client.ResultEventCallback(strings.Split(url, ".")[0], req)
+					client.ResultEventCallback(strings.Split(url, ".")[0], req, 10*time.Second)
 					return req.Result()
 
 				}()

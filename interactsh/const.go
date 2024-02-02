@@ -8,6 +8,7 @@ import (
 const (
 	defaultInteractionDuration  = time.Minute
 	defaultMaxInteractionsCount = 5000
+	DefaultTimeout              = 10 * time.Second
 )
 
 var (

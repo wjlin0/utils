@@ -4,6 +4,7 @@ go 1.21
 
 require (
 	github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057
+	github.com/julienschmidt/httprouter v1.3.0
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/interactsh v1.1.8
 	github.com/projectdiscovery/retryablehttp-go v1.0.37
