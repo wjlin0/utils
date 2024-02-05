@@ -18,9 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.DEPENDABOT_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: ahmadnassri/action-dependabot-auto-merge@v2
         with:
-          github-token: ${{ secrets.DEPENDABOT_PAT }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           target: all
