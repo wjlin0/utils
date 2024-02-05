@@ -15,8 +15,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/interactsh v1.1.8
-	github.com/projectdiscovery/retryablehttp-go v1.0.46
-	github.com/projectdiscovery/utils v0.0.76
+	github.com/projectdiscovery/retryablehttp-go v1.0.45
+	github.com/projectdiscovery/utils v0.0.77
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.11.0
