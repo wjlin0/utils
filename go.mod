@@ -15,8 +15,8 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/interactsh v1.1.8
-	github.com/projectdiscovery/retryablehttp-go v1.0.45
-	github.com/projectdiscovery/utils v0.0.77
+	github.com/projectdiscovery/retryablehttp-go v1.0.46
+	github.com/projectdiscovery/utils v0.0.78
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/oauth2 v0.11.0
@@ -75,12 +75,12 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/projectdiscovery/asnmap v1.0.6 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/fastdialer v0.0.56 // indirect
+	github.com/projectdiscovery/fastdialer v0.0.57 // indirect
 	github.com/projectdiscovery/goflags v0.1.29 // indirect
-	github.com/projectdiscovery/hmap v0.0.36 // indirect
+	github.com/projectdiscovery/hmap v0.0.37 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.14 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.7 // indirect
-	github.com/projectdiscovery/retryabledns v1.0.53 // indirect
+	github.com/projectdiscovery/retryabledns v1.0.56 // indirect
 	github.com/quic-go/quic-go v0.37.7 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
