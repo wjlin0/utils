@@ -149,6 +149,11 @@ func GetUpdateDirFromRepoCallback(toolName, dir, repoName string) func() error {
 		if err != nil {
 			return errorutil.NewWithErr(err).Msgf("failed to download latest release got %v", err).WithTag("updater")
 		}
+		_ = os.RemoveAll(dir)
+
+		if err := os.MkdirAll(dir, os.ModePerm); err != nil {
+			return err
+		}
 		callback := func(path string, f fs.FileInfo, data io.Reader) error {
 			templateAbsolutePath, skipFile, err := calculateTemplateAbsolutePath(path, dir)
 			if err != nil {
