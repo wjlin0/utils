@@ -77,7 +77,7 @@ require (
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
 	github.com/projectdiscovery/fastdialer v0.0.59 // indirect
 	github.com/projectdiscovery/goflags v0.1.29 // indirect
-	github.com/projectdiscovery/hmap v0.0.39 // indirect
+	github.com/projectdiscovery/hmap v0.0.41 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.14 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.7 // indirect
 	github.com/projectdiscovery/retryabledns v1.0.58 // indirect
