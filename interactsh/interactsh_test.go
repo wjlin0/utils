@@ -1,3 +1,5 @@
+//go:build interactshutils
+
 package interactshutils
 
 import (
