@@ -9,8 +9,6 @@ github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057 h1:KFac3SiGbId8ub
 github.com/Mzack9999/gcache v0.0.0-20230410081825-519e28eab057/go.mod h1:iLB2pivrPICvLOuROKmlqURtFIEsoJZaMidQfCG1+D4=
 github.com/Mzack9999/go-http-digest-auth-client v0.6.1-0.20220414142836-eb8883508809 h1:ZbFL+BDfBqegi+/Ssh7im5+aQfBRx6it+kHnC7jaDU8=
 github.com/Mzack9999/go-http-digest-auth-client v0.6.1-0.20220414142836-eb8883508809/go.mod h1:upgc3Zs45jBDnBT4tVRgRcgm26ABpaP7MoTSdgysca4=
-github.com/Mzack9999/ldapserver v1.0.2-0.20211229000134-b44a0d6ad0dd h1:RTWs+wEY9efxTKK5aFic5C5KybqQelGcX+JdM69KoTo=
-github.com/Mzack9999/ldapserver v1.0.2-0.20211229000134-b44a0d6ad0dd/go.mod h1:AqtPw7WNT0O69k+AbPKWVGYeW94TqgMW/g+Ppc8AZr4=
 github.com/VividCortex/ewma v1.2.0 h1:f58SaIzcDXrSy3kWaHNvuJgJ3Nmz59Zji6XoJR/q1ow=
 github.com/VividCortex/ewma v1.2.0/go.mod h1:nz4BbCtbLyFDeC9SUHbtcT5644juEuWfUAUnGx7j5l4=
 github.com/akrylysov/pogreb v0.10.1 h1:FqlR8VR7uCbJdfUob916tPM+idpKgeESDXOA1K0DK4w=
@@ -216,8 +214,10 @@ github.com/projectdiscovery/gologger v1.1.12 h1:uX/QkQdip4PubJjjG0+uk5DtyAi1ANPJ
 github.com/projectdiscovery/gologger v1.1.12/go.mod h1:DI8nywPLERS5mo8QEA9E7gd5HZ3Je14SjJBH3F5/kLw=
 github.com/projectdiscovery/hmap v0.0.41 h1:8IgTyDce3/2JzcfPVA4H+XpBRFfETULx8td3BMdSYVE=
 github.com/projectdiscovery/hmap v0.0.41/go.mod h1:bCrai6x5Eijqm2U+jtcH0wZX5ZcaZhcvzoMGTZgLAf0=
-github.com/projectdiscovery/interactsh v1.1.8 h1:mDD+f/oo2tV4Z1WyUync0tgYeJyuiS89Un64Gm6Pvgk=
-github.com/projectdiscovery/interactsh v1.1.8/go.mod h1:E20ywFb7bL01GcOOk+6VZF48XZ8AZvYvBpULoBUSTbg=
+github.com/projectdiscovery/interactsh v1.1.9 h1:b77SaSGrO+DtivmWwqGGY2dmNlQC3Zgmwlaj9L4Oqvc=
+github.com/projectdiscovery/interactsh v1.1.9/go.mod h1:0FRQXCildcTLq7Tsa4BVZAsFCXhpWs4C4quKWigXb5I=
+github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb h1:MGtI4oE12ruWv11ZlPXXd7hl/uAaQZrFvrIDYDeVMd8=
+github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb/go.mod h1:vmgC0DTFCfoCLp0RAfsfYTZZan0QMVs+cmTbH6blfjk=
 github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 h1:ZScLodGSezQVwsQDtBSMFp72WDq0nNN+KE/5DHKY5QE=
 github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983/go.mod h1:3G3BRKui7nMuDFAZKR/M2hiOLtaOmyukT20g88qRQjI=
 github.com/projectdiscovery/mapcidr v1.1.16 h1:rjj1w5D6hbTsUQXYClLcGdfBEy9bryclgi70t0vBggo=

@@ -14,7 +14,7 @@ require (
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/gologger v1.1.12
-	github.com/projectdiscovery/interactsh v1.1.8
+	github.com/projectdiscovery/interactsh v1.1.9
 	github.com/projectdiscovery/retryablehttp-go v1.0.52
 	github.com/projectdiscovery/utils v0.0.84
 	github.com/remeh/sizedwaitgroup v1.0.0
@@ -26,7 +26,6 @@ require (
 	aead.dev/minisign v0.2.0 // indirect
 	git.mills.io/prologic/smtpd v0.0.0-20210710122116-a525b76c287a // indirect
 	github.com/Mzack9999/go-http-digest-auth-client v0.6.1-0.20220414142836-eb8883508809 // indirect
-	github.com/Mzack9999/ldapserver v1.0.2-0.20211229000134-b44a0d6ad0dd // indirect
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/akrylysov/pogreb v0.10.1 // indirect
 	github.com/alecthomas/chroma v0.10.0 // indirect
@@ -81,6 +80,7 @@ require (
 	github.com/projectdiscovery/fastdialer v0.0.63 // indirect
 	github.com/projectdiscovery/goflags v0.1.44 // indirect
 	github.com/projectdiscovery/hmap v0.0.41 // indirect
+	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.16 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.8 // indirect
