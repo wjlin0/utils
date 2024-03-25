@@ -77,7 +77,7 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.0 // indirect
 	github.com/projectdiscovery/blackrock v0.0.1 // indirect
-	github.com/projectdiscovery/fastdialer v0.0.63 // indirect
+	github.com/projectdiscovery/fastdialer v0.0.64 // indirect
 	github.com/projectdiscovery/goflags v0.1.44 // indirect
 	github.com/projectdiscovery/hmap v0.0.41 // indirect
 	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
