@@ -17,9 +17,8 @@ type Client struct {
 	options      *Options
 	sync.Once
 	sync.RWMutex
-	pollDuration     time.Duration
-	cooldownDuration time.Duration
-	eviction         time.Duration
+	pollDuration time.Duration
+	eviction     time.Duration
 }
 
 // New returns a new interactsh server client
@@ -106,7 +105,6 @@ func (c *Client) ResultEventCallback(id string, data *RequestData, timeout time.
 		_ = c.requestDatas.SetWithExpire(id, data, c.eviction)
 	}
 
-	return
 }
 
 func (c *Client) Close() {
@@ -115,7 +113,6 @@ func (c *Client) Close() {
 		_ = c.interactsh.StopPolling()
 		_ = c.interactsh.Close()
 	}
-	return
 }
 func (c *Client) processInteractionForRequest(interaction *server.Interaction, data *RequestData) bool {
 	var (

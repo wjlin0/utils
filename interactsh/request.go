@@ -16,26 +16,17 @@ type RequestData struct {
 
 func (r *RequestData) Result() (bool, []string) {
 
-	select {
-	case <-r.context.Done():
-
-	}
+	<-r.context.Done()
 
 	return r.match, r.extra
 }
 
 func DefaultHttpMatcher(interactions *server.Interaction) bool {
-	if interactions.Protocol == "http" {
-		return true
-	}
-	return false
+	return interactions.Protocol == "http"
 }
 
 func DefaultDnsMatcher(interactions *server.Interaction) bool {
-	if interactions.Protocol == "dns" {
-		return true
-	}
-	return false
+	return interactions.Protocol == "dns"
 }
 
 func NewRequestData(matchFunc func(interactions *server.Interaction) bool, extractFunc func(interactions *server.Interaction) []string) *RequestData {
