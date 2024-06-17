@@ -17,7 +17,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.12
 	github.com/projectdiscovery/interactsh v1.1.9
 	github.com/projectdiscovery/retryablehttp-go v1.0.64
-	github.com/projectdiscovery/utils v0.1.4-0.20240611113448-0e2f2d33fe1c
+	github.com/projectdiscovery/utils v0.1.4
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.11.0
