@@ -16,8 +16,8 @@ require (
 	github.com/projectdiscovery/blackrock v0.0.1
 	github.com/projectdiscovery/gologger v1.1.13
 	github.com/projectdiscovery/interactsh v1.2.0
-	github.com/projectdiscovery/retryablehttp-go v1.0.65
-	github.com/projectdiscovery/utils v0.1.5
+	github.com/projectdiscovery/retryablehttp-go v1.0.66
+	github.com/projectdiscovery/utils v0.1.6
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.11.0
@@ -82,7 +82,7 @@ require (
 	github.com/projectdiscovery/asnmap v1.1.0 // indirect
 	github.com/projectdiscovery/fastdialer v0.1.5 // indirect
 	github.com/projectdiscovery/goflags v0.1.57 // indirect
-	github.com/projectdiscovery/hmap v0.0.47 // indirect
+	github.com/projectdiscovery/hmap v0.0.48 // indirect
 	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
