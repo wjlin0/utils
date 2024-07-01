@@ -16,7 +16,7 @@ require (
 	github.com/projectdiscovery/blackrock v0.0.1
 	github.com/projectdiscovery/gologger v1.1.13
 	github.com/projectdiscovery/interactsh v1.2.0
-	github.com/projectdiscovery/retryablehttp-go v1.0.66
+	github.com/projectdiscovery/retryablehttp-go v1.0.67
 	github.com/projectdiscovery/utils v0.1.6
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.9.0
