@@ -17,7 +17,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.15
 	github.com/projectdiscovery/interactsh v1.2.0
 	github.com/projectdiscovery/retryablehttp-go v1.0.69
-	github.com/projectdiscovery/utils v0.2.1
+	github.com/projectdiscovery/utils v0.2.2
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.11.0
@@ -44,7 +44,6 @@ require (
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 // indirect
 	github.com/gaissmai/bart v0.9.5 // indirect
-	github.com/gaukas/godicttls v0.0.4 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/goburrow/cache v0.1.4 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
@@ -54,7 +53,7 @@ require (
 	github.com/google/uuid v1.3.1 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.16.7 // indirect
+	github.com/klauspost/compress v1.17.4 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
 	github.com/libdns/libdns v0.2.1 // indirect
@@ -80,16 +79,15 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
-	github.com/projectdiscovery/fastdialer v0.1.6 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.0 // indirect
 	github.com/projectdiscovery/goflags v0.1.59 // indirect
 	github.com/projectdiscovery/hmap v0.0.50 // indirect
 	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
 	github.com/projectdiscovery/machineid v0.0.0-20240226150047-2e2c51e35983 // indirect
 	github.com/projectdiscovery/mapcidr v1.1.34 // indirect
 	github.com/projectdiscovery/networkpolicy v0.0.9 // indirect
-	github.com/projectdiscovery/retryabledns v1.0.66 // indirect
-	github.com/quic-go/quic-go v0.42.0 // indirect
-	github.com/refraction-networking/utls v1.5.4 // indirect
+	github.com/projectdiscovery/retryabledns v1.0.67 // indirect
+	github.com/refraction-networking/utls v1.6.7 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rs/xid v1.5.0 // indirect
