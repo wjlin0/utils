@@ -14,7 +14,7 @@ require (
 	github.com/minio/selfupdate v0.6.1-0.20230907112617-f11e74f84ca7
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/blackrock v0.0.1
-	github.com/projectdiscovery/gologger v1.1.22
+	github.com/projectdiscovery/gologger v1.1.23
 	github.com/projectdiscovery/interactsh v1.2.0
 	github.com/projectdiscovery/retryablehttp-go v1.0.76
 	github.com/projectdiscovery/utils v0.2.9
