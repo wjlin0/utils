@@ -17,7 +17,7 @@ require (
 	github.com/projectdiscovery/gologger v1.1.23
 	github.com/projectdiscovery/interactsh v1.2.0
 	github.com/projectdiscovery/retryablehttp-go v1.0.77
-	github.com/projectdiscovery/utils v0.2.9
+	github.com/projectdiscovery/utils v0.2.10
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/oauth2 v0.11.0
@@ -79,7 +79,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/projectdiscovery/asnmap v1.1.1 // indirect
-	github.com/projectdiscovery/fastdialer v0.2.7 // indirect
+	github.com/projectdiscovery/fastdialer v0.2.8 // indirect
 	github.com/projectdiscovery/goflags v0.1.64 // indirect
 	github.com/projectdiscovery/hmap v0.0.58 // indirect
 	github.com/projectdiscovery/ldapserver v1.0.2-0.20240219154113-dcc758ebc0cb // indirect
