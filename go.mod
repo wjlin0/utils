@@ -15,7 +15,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/projectdiscovery/blackrock v0.0.1
 	github.com/projectdiscovery/gologger v1.1.26
-	github.com/projectdiscovery/interactsh v1.2.0
+	github.com/projectdiscovery/interactsh v1.2.2
 	github.com/projectdiscovery/retryablehttp-go v1.0.79
 	github.com/projectdiscovery/utils v0.2.12
 	github.com/remeh/sizedwaitgroup v1.0.0
