@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fix
 - fix icp-search
+  - fix icp-search
+  
+  ### Update
+- update CHANGELOG.md
   
   
 <a name="v0.0.44"></a>
