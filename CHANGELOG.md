@@ -8,7 +8,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 <a name="unreleased"></a>
 ## [Unreleased]
 
-
+### Add
+- add icp-search
+  
+  
+<a name="v0.0.43"></a>
+## [v0.0.43] - 2024-11-21
+### Update
+- update CHANGELOG.md
+  
+  
 <a name="v0.0.42"></a>
 ## [v0.0.42] - 2024-11-21
 ### Add
@@ -199,7 +208,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - fix change log not found
   
   
-[Unreleased]: https://github.com/wjlin0/utils/compare/v0.0.42...HEAD
+[Unreleased]: https://github.com/wjlin0/utils/compare/v0.0.43...HEAD
+[v0.0.43]: https://github.com/wjlin0/utils/compare/v0.0.42...v0.0.43
 [v0.0.42]: https://github.com/wjlin0/utils/compare/v0.0.41...v0.0.42
 [v0.0.41]: https://github.com/wjlin0/utils/compare/v0.0.40...v0.0.41
 [v0.0.40]: https://github.com/wjlin0/utils/compare/v0.0.39...v0.0.40
