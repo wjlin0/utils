@@ -90,19 +90,19 @@ xx:
 }
 
 // SearchByUnitName SearchBy 根据第一次搜索 unitName 获取所有的信息
-func (r *Runner) SearchByUnitName(unitName string) ([][]*Entry, error) {
+func (r *Runner) SearchByUnitName(unitName string) (map[string][]*Entry, error) {
 
 	search, err := r.Search(unitName)
 	if err != nil {
 		return nil, err
 	}
-	var data [][]*Entry
+	data := make(map[string][]*Entry)
 	for _, entry := range search {
 		search, err := r.Search(entry.UnitName)
 		if err != nil {
 			continue
 		}
-		data = append(data, search)
+		data[entry.UnitName] = append(data[entry.UnitName], search...)
 	}
 	return data, nil
 }
